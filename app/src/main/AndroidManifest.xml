@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.freddymolano.up">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".IntroActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TabsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".RegistrarActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AddActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FragmentsMainActivity" />
+        <activity
+            android:name=".Navegation_Drawer"
+            android:label="@string/title_activity_navegation__drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

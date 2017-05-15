@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">UP</string>
+    <string name="activity_add">Agregar Usuario</string>
+    <string name="add">Agregar Viaje</string>
+    <string name="more">Mas</string>
+    <string name="editar">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="info">Informacion</string>
+    <string name="about">Acerca de</string>
+    <string-array name="colores_nombre">
+        <item>Azul</item>
+        <item>Rojo</item>
+        <item>Amarillo</item>
+        <item>Naranja</item>
+        <item>Violeta</item>
+        <item>Verde</item>
+    </string-array>
+
+    <string-array name="Ciudades">
+        <item>Popayan</item>
+        <item>Cali</item>
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Pasto</item>
+
+    </string-array>
+
+    <string-array name="CiudadesDestino">
+        <item>Popayan</item>
+        <item>Cali</item>
+        <item>Bogota</item>
+        <item>Medellin</item>
+        <item>Pasto</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_navegation__drawer">Navegation_Drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

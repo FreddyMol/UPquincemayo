@@ -1,0 +1,27 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <data>
+        <variable
+            name="pos"
+            type="java.lang.Integer"/>
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.freddymolano.up.fragments.ColorFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@{@intArray/colores[pos]}"
+            android:text="@{@stringArray/colores_nombre[pos]}"
+            />
+
+
+    </FrameLayout>
+</layout>
+
